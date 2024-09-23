@@ -2,4 +2,4 @@
 
 mkdir permissions
 touch permission/0-iam_betty
-chown sudo betty 0-iam_betty.sh
+sudo chown betty 0-iam_betty.sh
