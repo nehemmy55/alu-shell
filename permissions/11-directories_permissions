@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type permissions -exec chmod 755 {} \
+find . -type permissions -exec chmod 755 {} \;
