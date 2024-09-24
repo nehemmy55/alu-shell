@@ -1,0 +1,3 @@
+#!/bin/bash
+chown vicent permissions
+chgrp staff permissions
