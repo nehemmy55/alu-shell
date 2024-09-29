@@ -1,2 +1,2 @@
 #!/bin/bash
-uniq -u edb tel fder ter deb
+sort |uniq -u 
