@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Dig the data
+awk '{print $1, $9}' /path/to/apache/log/file.log | \
+awk '{count[$1" "$2]++} END {for (i in count) print count[i], i}' | \
+sort -nr
