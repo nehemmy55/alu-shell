@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Set the Internal Field Separator to colon
 IFS=":"
 while read -r username password userid groupid info homedir shell; do
