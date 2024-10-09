@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#listing with loop
+i=$(ll)
+for _ in $i
+do 
+	echo "$i" |cut -d '-' -f2
+done
