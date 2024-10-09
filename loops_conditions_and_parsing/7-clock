@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# create time clock
+i=0
+while [ $i -le 11 ]
+do
+  j=0
+  while [ $j -le 59 ]
+  do 
+    echo "$j"
+    ((j++))
+  done
+  echo "hour:$i"
+  ((i++))
+done
