@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-#listing with loop
-i=$(ls)
-for _ in $i
-do 
-	echo "$i" |cut -d '-' -f2
+#listing of working directory
+display=$(ls)
+for i in $display;
+do
+        echo "$i" | cut -d '-' -f2
 done
