@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#ending undefined iteration
+kill "$(ps -x | pgrep -f beyond)"
